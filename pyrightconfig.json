@@ -1,0 +1,10 @@
+{
+  "include": [
+    "agentic-workflow",
+    "mail-receive-api"
+  ],
+  "extraPaths": [
+    "agentic-workflow",
+    "mail-receive-api"
+  ]
+}

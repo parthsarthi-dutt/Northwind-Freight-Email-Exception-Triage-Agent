@@ -1,0 +1,41 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Local Environment Variables & Secrets (Keep .env.example tracked)
+.env
+*.env
+**/.env
+!.env.example
+!**/.env.example
+
+# Runtime SQLite Database & Instance files (Exclude runtime state, preserve seed catalog)
+instance/
+mail-receive-api/instance/
+*.sqlite
+*.sqlite3
+
+# Runtime Application Logs
+logs/
+*.log
+mail-receive-api/logs/
+
+# Candidate Internal Archives & Raw Prompts (Archived locally, excluded from repository)
+archive/
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
